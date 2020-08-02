@@ -4,6 +4,7 @@ def oxford_comma(array)
   elsif array.length == 3
     x = ""
     array.each do |item|
+      
       x << item 
       x << ", "
   else
